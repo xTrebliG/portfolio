@@ -1,0 +1,83 @@
+@import "bourbon/bourbon";
+body{
+  font-family: Arial, sans-serif;
+}
+
+.nav-bar{
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  border: 1px solid black;
+  top: 0;
+  z-index: 10;
+  margin-left: -2px;
+  background-color: rgba(63, 63, 63, .4);
+
+  ul{
+    float: right;
+
+  }
+
+  li{
+    display: inline-block;
+    padding: 5px;
+  }
+
+  a:link, a:visited{
+    color: ghostwhite;
+    text-decoration: none;
+
+  }
+
+
+}
+
+//SECTION ONE STYLES//
+#sec-one{
+  background-image: url('../images/blurredbg1.jpg');//TEMP BACKGROUND IMAGE//
+  background-size: cover;
+
+  h1{
+    color: azure;
+  }
+
+  .sec-one-header {
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+
+}
+
+//SECTION TWO STYLES//
+
+#sec-two {
+  background-image: url("../images/blurredbg2.jpg");//TEMP BACKGROUND IMAGE//
+  background-size: cover;
+}
+
+//SECTION THREE STYLES//
+
+#sec-three {
+  background-image: url("../images/blurredbg3.jpg"); //TEMP BACKGROUND IMAGE//
+  background-size: cover;
+}
+
+//SECTION FOUR STYLES//
+#sec-four {
+  background-image: url("../images/blurredbg4.jpg");//TEMP BACKGROUND IMAGE//
+  background-size: cover;
+}
+
+//FOOTER STYLE//
+
+footer{
+  height: 40px;
+  width: 100%;
+  border: 1px solid black;
+  bottom: 0;
+  position: fixed;
+  z-index: 0;
+}

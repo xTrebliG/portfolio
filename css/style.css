@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif; }
+
+.nav-bar {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  border: 1px solid black;
+  top: 0;
+  z-index: 10;
+  margin-left: -2px;
+  background-color: rgba(63, 63, 63, 0.4); }
+  .nav-bar ul {
+    float: right; }
+  .nav-bar li {
+    display: inline-block;
+    padding: 5px; }
+  .nav-bar a:link, .nav-bar a:visited {
+    color: ghostwhite;
+    text-decoration: none; }
+
+#sec-one {
+  background-image: url("../images/blurredbg1.jpg");
+  background-size: cover; }
+  #sec-one h1 {
+    color: azure; }
+  #sec-one .sec-one-header {
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid black;
+    text-align: center; }
+
+#sec-two {
+  background-image: url("../images/blurredbg2.jpg");
+  background-size: cover; }
+
+#sec-three {
+  background-image: url("../images/blurredbg3.jpg");
+  background-size: cover; }
+
+#sec-four {
+  background-image: url("../images/blurredbg4.jpg");
+  background-size: cover; }
+
+footer {
+  height: 40px;
+  width: 100%;
+  border: 1px solid black;
+  bottom: 0;
+  position: fixed;
+  z-index: 0; }
+
+/*# sourceMappingURL=style.css.map */
