@@ -1,7 +1,10 @@
 @import "bourbon/bourbon";
+
+
+
+
 body{
   font-family: Arial, sans-serif;
-
   .fa {
     color: papayawhip;
   }
@@ -38,25 +41,40 @@ body{
 
 //SECTION ONE STYLES//
 #sec-one{
-  background-image: url('../images/bg1.jpg');//TEMP BACKGROUND IMAGE//
-//  background-color: cadetblue;
-  background-size: cover;
-  color: papayawhip;
+//    background-image: url('../images/bridgebike.jpeg');//TEMP BACKGROUND IMAGE//
+    background-color: cadetblue;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 5px #636363;
 
   h1{
+//    border: 1px solid black;
+    width: 400px;
+    padding: 10px 0px 10px 35px;
+    background-color: rgba(255, 239, 213, .7) ;
+    margin-bottom: -20px;
+
+
 
   }
+
+  h2{
+    width: 400px;
+    background-color: rgba(255, 239, 213, .7) ;
+    padding: 10px 100px 10px 10px;
+    margin-left: -170px;
+
+  }
+
 
   .sec-one-header {
     margin: 0 auto;
     width: 50%;
     border: 1px solid black;
     text-align: center;
+
   }
 
-  #one{
-    top: 0;
-  }
 
   .scrolldown{
 
@@ -112,9 +130,9 @@ footer{
 
 .span2, .span1, .span3, .span4 {
   opacity: .0;
-  white-space: nowrap;
 }
 
 //.span2, .span4{
 //  text-align: right;
 //}
+

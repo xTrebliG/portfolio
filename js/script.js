@@ -15,7 +15,7 @@ function nameSlideRight(){
     $(window).load(function(){
         $('#one').animate({
             opacity: 1,
-            marginLeft: '90%'
+            marginLeft: '80%'
         }, 1400);
 
         $('#two').animate({
@@ -23,7 +23,7 @@ function nameSlideRight(){
             marginLeft: '85%'
         }, 1500);
 
-        $('#webdev').css('margin-left', '95px')
+        //$('#webdev').css('margin-left', '95px')
 
 
     })

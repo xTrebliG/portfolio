@@ -21,16 +21,25 @@ body {
     text-decoration: none; }
 
 #sec-one {
-  background-image: url("../images/bg1.jpg");
+  background-color: cadetblue;
   background-size: cover;
-  color: papayawhip; }
+  color: white;
+  text-shadow: 2px 2px 5px #636363; }
+  #sec-one h1 {
+    width: 400px;
+    padding: 10px 0px 10px 35px;
+    background-color: rgba(255, 239, 213, 0.7);
+    margin-bottom: -20px; }
+  #sec-one h2 {
+    width: 400px;
+    background-color: rgba(255, 239, 213, 0.7);
+    padding: 10px 100px 10px 10px;
+    margin-left: -170px; }
   #sec-one .sec-one-header {
     margin: 0 auto;
     width: 50%;
     border: 1px solid black;
     text-align: center; }
-  #sec-one #one {
-    top: 0; }
   #sec-one .scrolldown {
     text-align: center;
     height: 60px;
@@ -57,7 +66,6 @@ footer {
   z-index: 0; }
 
 .span2, .span1, .span3, .span4 {
-  opacity: .0;
-  white-space: nowrap; }
+  opacity: .0; }
 
 /*# sourceMappingURL=style.css.map */
