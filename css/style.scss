@@ -18,7 +18,7 @@ body{
   top: 0;
   z-index: 10;
   margin-left: -2px;
-  background-color: rgba(63, 63, 63, .4);
+
 
   ul{
     float: right;
@@ -67,13 +67,6 @@ body{
   }
 
 
-  .sec-one-header {
-    margin: 0 auto;
-    width: 50%;
-    border: 1px solid black;
-    text-align: center;
-
-  }
 
 
   .scrolldown{
@@ -107,6 +100,18 @@ body{
 #sec-three {
   background-color: darkslategray;
   background-size: cover;
+
+  .slideContent{
+    width: 60%;
+    height: 50%;
+    margin:0 auto;
+    background-color: rgba(255, 239, 213, .7) ;
+
+    h1{
+      color: black;
+      text-align: center;
+    }
+  }
 }
 
 //SECTION FOUR STYLES//
@@ -114,10 +119,7 @@ body{
 //  background-image: url("../images/blurredbg4.jpg");//TEMP BACKGROUND IMAGE//
   background-size: cover;
 
-  .slideContent{
-    width: 40%;
-    height:
-  }
+
 }
 
 //FOOTER STYLE//
@@ -141,3 +143,22 @@ footer{
 //  text-align: right;
 //}
 
+//MEDIA QUERIES//
+
+@media(max-width: 480px){
+  #sec-one{
+    h1{
+      margin-left: -160px;
+      font-size: 1.8em;
+    }
+
+    h2{
+      margin-left: -220px;
+      font-size: 1em;
+      margin-top: 20px;
+    }
+
+  }
+
+
+}

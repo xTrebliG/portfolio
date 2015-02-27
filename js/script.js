@@ -3,7 +3,6 @@ $('#downarrow').hide();
 $(document).ready(function(){
 
     $('#fullpage').fullpage(function(){
-
     });
 
     nameSlideRight();

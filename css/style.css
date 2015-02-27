@@ -1,61 +1,83 @@
-/*
-Error: Invalid CSS after "    height:": expected expression (e.g. 1px, bold), was "}"
-        on line 120 of style.scss
+body {
+  font-family: Arial, sans-serif; }
+  body .fa {
+    color: papayawhip; }
 
-115:   background-size: cover;
-116: 
-117:   .slideContent{
-118:     width: 40%;
-119:     height:
-120:   }
-121: }
-122: 
-123: //FOOTER STYLE//
-124: 
-125: footer{
+.nav-bar {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  margin-left: -2px; }
+  .nav-bar ul {
+    float: right; }
+  .nav-bar li {
+    display: inline-block;
+    padding: 5px; }
+  .nav-bar a:link, .nav-bar a:visited {
+    color: papayawhip;
+    text-decoration: none; }
 
-Backtrace:
-style.scss:120
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:1165:in `expected'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/script/lexer.rb:221:in `expected!'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/script/parser.rb:573:in `assert_expr'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/script/parser.rb:62:in `parse'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:1027:in `sass_script'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:880:in `value!'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:753:in `block in try_declaration'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:1141:in `call'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:1141:in `rethrow'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:766:in `try_declaration'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:661:in `block_child'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:653:in `block_contents'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:642:in `block'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:661:in `block_child'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:653:in `block_contents'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:642:in `block'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:635:in `ruleset'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:660:in `block_child'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:653:in `block_contents'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/scss/parser.rb:42:in `parse'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/engine.rb:393:in `_to_tree'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/Users/Gil/.rvm/gems/ruby-2.1.2/gems/sass-3.4.12/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"    height:\": expected expression (e.g. 1px, bold), was \"}\"\A         on line 120 of style.scss\A \A 115:   background-size: cover;\A 116: \A 117:   .slideContent{\A 118:     width: 40%;\A 119:     height:\A 120:   }\A 121: }\A 122: \A 123: //FOOTER STYLE//\A 124: \A 125: footer{"; }
+#sec-one {
+  background-color: cadetblue;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 5px #636363; }
+  #sec-one h1 {
+    width: 400px;
+    padding: 10px 0px 10px 35px;
+    background-color: rgba(255, 239, 213, 0.7);
+    margin-bottom: -20px; }
+  #sec-one h2 {
+    width: 400px;
+    background-color: rgba(255, 239, 213, 0.7);
+    padding: 10px 100px 10px 10px;
+    margin-left: -170px; }
+  #sec-one .scrolldown {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 0; }
+
+#sec-two {
+  background-size: cover; }
+
+#sec-three {
+  background-color: darkslategray;
+  background-size: cover; }
+  #sec-three .slideContent {
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    background-color: rgba(255, 239, 213, 0.7); }
+    #sec-three .slideContent h1 {
+      color: black;
+      text-align: center; }
+
+#sec-four {
+  background-size: cover; }
+
+footer {
+  height: 40px;
+  width: 100%;
+  border: 1px solid black;
+  bottom: 0;
+  position: fixed;
+  z-index: 0; }
+
+.span2, .span1, .span3, .span4 {
+  opacity: .0; }
+
+@media (max-width: 480px) {
+  #sec-one h1 {
+    margin-left: -160px;
+    font-size: 1.8em; }
+  #sec-one h2 {
+    margin-left: -220px;
+    font-size: 1em;
+    margin-top: 20px; } }
+
+/*# sourceMappingURL=style.css.map */
