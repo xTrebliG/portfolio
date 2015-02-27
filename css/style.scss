@@ -1,13 +1,17 @@
 @import "bourbon/bourbon";
 body{
   font-family: Arial, sans-serif;
+
+  .fa {
+    color: papayawhip;
+  }
 }
 
 .nav-bar{
   height: 40px;
   width: 100%;
   position: fixed;
-  border: 1px solid black;
+//  border: 1px solid black;
   top: 0;
   z-index: 10;
   margin-left: -2px;
@@ -24,7 +28,7 @@ body{
   }
 
   a:link, a:visited{
-    color: ghostwhite;
+    color: papayawhip;
     text-decoration: none;
 
   }
@@ -34,11 +38,13 @@ body{
 
 //SECTION ONE STYLES//
 #sec-one{
-  background-image: url('../images/blurredbg1.jpg');//TEMP BACKGROUND IMAGE//
+  background-image: url('../images/bg1.jpg');//TEMP BACKGROUND IMAGE//
+//  background-color: cadetblue;
   background-size: cover;
+  color: papayawhip;
 
   h1{
-    color: azure;
+
   }
 
   .sec-one-header {
@@ -48,26 +54,46 @@ body{
     text-align: center;
   }
 
+  #one{
+    top: 0;
+  }
+
+  .scrolldown{
+
+    text-align: center;
+    height: 60px;
+    width: 100%;
+//    border: 1px solid black;
+    bottom: 0;
+    position: fixed;
+    z-index: 0;
+
+    p{
+
+    }
+
+
+  }
 
 }
 
 //SECTION TWO STYLES//
 
 #sec-two {
-  background-image: url("../images/blurredbg2.jpg");//TEMP BACKGROUND IMAGE//
+//  background-image: url("../images/blurredbg2.jpg");//TEMP BACKGROUND IMAGE//
   background-size: cover;
 }
 
 //SECTION THREE STYLES//
 
 #sec-three {
-  background-image: url("../images/blurredbg3.jpg"); //TEMP BACKGROUND IMAGE//
+//  background-image: url("../images/blurredbg3.jpg"); //TEMP BACKGROUND IMAGE//
   background-size: cover;
 }
 
 //SECTION FOUR STYLES//
 #sec-four {
-  background-image: url("../images/blurredbg4.jpg");//TEMP BACKGROUND IMAGE//
+//  background-image: url("../images/blurredbg4.jpg");//TEMP BACKGROUND IMAGE//
   background-size: cover;
 }
 
@@ -81,3 +107,14 @@ footer{
   position: fixed;
   z-index: 0;
 }
+
+//SLIDE IN TEST//
+
+.span2, .span1, .span3, .span4 {
+  opacity: .0;
+  white-space: nowrap;
+}
+
+//.span2, .span4{
+//  text-align: right;
+//}

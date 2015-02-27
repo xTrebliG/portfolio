@@ -1,11 +1,12 @@
 body {
   font-family: Arial, sans-serif; }
+  body .fa {
+    color: papayawhip; }
 
 .nav-bar {
   height: 40px;
   width: 100%;
   position: fixed;
-  border: 1px solid black;
   top: 0;
   z-index: 10;
   margin-left: -2px;
@@ -16,30 +17,35 @@ body {
     display: inline-block;
     padding: 5px; }
   .nav-bar a:link, .nav-bar a:visited {
-    color: ghostwhite;
+    color: papayawhip;
     text-decoration: none; }
 
 #sec-one {
-  background-image: url("../images/blurredbg1.jpg");
-  background-size: cover; }
-  #sec-one h1 {
-    color: azure; }
+  background-image: url("../images/bg1.jpg");
+  background-size: cover;
+  color: papayawhip; }
   #sec-one .sec-one-header {
     margin: 0 auto;
     width: 50%;
     border: 1px solid black;
     text-align: center; }
+  #sec-one #one {
+    top: 0; }
+  #sec-one .scrolldown {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 0; }
 
 #sec-two {
-  background-image: url("../images/blurredbg2.jpg");
   background-size: cover; }
 
 #sec-three {
-  background-image: url("../images/blurredbg3.jpg");
   background-size: cover; }
 
 #sec-four {
-  background-image: url("../images/blurredbg4.jpg");
   background-size: cover; }
 
 footer {
@@ -49,5 +55,9 @@ footer {
   bottom: 0;
   position: fixed;
   z-index: 0; }
+
+.span2, .span1, .span3, .span4 {
+  opacity: .0;
+  white-space: nowrap; }
 
 /*# sourceMappingURL=style.css.map */
