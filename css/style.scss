@@ -6,7 +6,7 @@
 body{
   font-family: Arial, sans-serif;
   .fa {
-    color: papayawhip;
+    color: white;
   }
 }
 
@@ -31,7 +31,7 @@ body{
   }
 
   a:link, a:visited{
-    color: papayawhip;
+    color: white;
     text-decoration: none;
 
   }
@@ -41,8 +41,8 @@ body{
 
 //SECTION ONE STYLES//
 #sec-one{
-//    background-image: url('../images/bridgebike.jpeg');//TEMP BACKGROUND IMAGE//
-    background-color: cadetblue;
+    background-image: url('../images/waterboat.jpeg');//TEMP BACKGROUND IMAGE//
+//    background-color: cadetblue;
     background-size: cover;
     color: white;
     text-shadow: 2px 2px 5px #636363;
@@ -51,7 +51,7 @@ body{
 //    border: 1px solid black;
     width: 400px;
     padding: 10px 0px 10px 35px;
-    background-color: rgba(255, 239, 213, .7) ;
+//    background-color: rgba(255, 239, 213, .7) ;
     margin-bottom: -20px;
 
 
@@ -60,7 +60,7 @@ body{
 
   h2{
     width: 400px;
-    background-color: rgba(255, 239, 213, .7) ;
+//    background-color: rgba(255, 239, 213, .7) ;
     padding: 10px 100px 10px 10px;
     margin-left: -170px;
 
@@ -91,8 +91,16 @@ body{
 //SECTION TWO STYLES//
 
 #sec-two {
-//  background-image: url("../images/blurredbg2.jpg");//TEMP BACKGROUND IMAGE//
+  background-image: url("../images/deskmouse.jpg");//TEMP BACKGROUND IMAGE//
   background-size: cover;
+
+  .pagetwo{
+    border:1px solid black;
+    width: 50%;
+    margin: 0 auto;
+
+
+  }
 }
 
 //SECTION THREE STYLES//
@@ -105,14 +113,18 @@ body{
     width: 60%;
     height: 50%;
     margin:0 auto;
-    background-color: rgba(255, 239, 213, .7) ;
+    background-color: rgba(255, 239, 213, .4) ;
 
     h1{
       color: black;
       text-align: center;
     }
   }
+
+
+
 }
+
 
 //SECTION FOUR STYLES//
 #sec-four {

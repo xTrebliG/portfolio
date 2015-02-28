@@ -7,6 +7,7 @@ $(document).ready(function(){
 
     nameSlideRight();
     arrowFadeIn();
+    //addBgColor();
 
 });
 
@@ -22,13 +23,17 @@ function nameSlideRight(){
             marginLeft: '85%'
         }, 1500);
 
-        //$('#webdev').css('margin-left', '95px')
+
 
 
     })
 
 }
 
+function addBgColor(){
+        $('#sec1h1').delay(5000).css('background-color', "rgba(255, 239, 213, .7)")
+
+}
 
 function arrowFadeIn(){
     $(window).load(function(){

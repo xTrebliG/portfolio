@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif; }
   body .fa {
-    color: papayawhip; }
+    color: white; }
 
 .nav-bar {
   height: 40px;
@@ -16,22 +16,20 @@ body {
     display: inline-block;
     padding: 5px; }
   .nav-bar a:link, .nav-bar a:visited {
-    color: papayawhip;
+    color: white;
     text-decoration: none; }
 
 #sec-one {
-  background-color: cadetblue;
+  background-image: url("../images/waterboat.jpeg");
   background-size: cover;
   color: white;
   text-shadow: 2px 2px 5px #636363; }
   #sec-one h1 {
     width: 400px;
     padding: 10px 0px 10px 35px;
-    background-color: rgba(255, 239, 213, 0.7);
     margin-bottom: -20px; }
   #sec-one h2 {
     width: 400px;
-    background-color: rgba(255, 239, 213, 0.7);
     padding: 10px 100px 10px 10px;
     margin-left: -170px; }
   #sec-one .scrolldown {
@@ -43,7 +41,12 @@ body {
     z-index: 0; }
 
 #sec-two {
+  background-image: url("../images/deskmouse.jpg");
   background-size: cover; }
+  #sec-two .pagetwo {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto; }
 
 #sec-three {
   background-color: darkslategray;
@@ -52,7 +55,7 @@ body {
     width: 60%;
     height: 50%;
     margin: 0 auto;
-    background-color: rgba(255, 239, 213, 0.7); }
+    background-color: rgba(255, 239, 213, 0.4); }
     #sec-three .slideContent h1 {
       color: black;
       text-align: center; }
