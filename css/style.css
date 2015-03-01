@@ -44,12 +44,14 @@ body {
   background-image: url("../images/deskmouse.jpg");
   background-size: cover; }
   #sec-two .pagetwo {
-    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
     width: 50%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4); }
 
 #sec-three {
-  background-color: darkslategray;
+  background-image: url("../images/dslr.jpg");
   background-size: cover; }
   #sec-three .slideContent {
     width: 60%;
@@ -61,6 +63,7 @@ body {
       text-align: center; }
 
 #sec-four {
+  background-image: url("../images/blurredbg4.jpg");
   background-size: cover; }
 
 footer {

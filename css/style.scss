@@ -41,7 +41,8 @@ body{
 
 //SECTION ONE STYLES//
 #sec-one{
-    background-image: url('../images/waterboat.jpeg');//TEMP BACKGROUND IMAGE//
+  background-image: url('../images/waterboat.jpeg');
+
 //    background-color: cadetblue;
     background-size: cover;
     color: white;
@@ -91,13 +92,16 @@ body{
 //SECTION TWO STYLES//
 
 #sec-two {
-  background-image: url("../images/deskmouse.jpg");//TEMP BACKGROUND IMAGE//
+  background-image: url("../images/deskmouse.jpg");
   background-size: cover;
 
   .pagetwo{
-    border:1px solid black;
+//    border:1px solid black;
+    border-radius: 5px;
+    padding: 5px;
     width: 50%;
     margin: 0 auto;
+    background-color: rgba(255,255,255, .4);
 
 
   }
@@ -106,7 +110,7 @@ body{
 //SECTION THREE STYLES//
 
 #sec-three {
-  background-color: darkslategray;
+  background-image: url("../images/dslr.jpg");
   background-size: cover;
 
   .slideContent{
@@ -128,7 +132,7 @@ body{
 
 //SECTION FOUR STYLES//
 #sec-four {
-//  background-image: url("../images/blurredbg4.jpg");//TEMP BACKGROUND IMAGE//
+  background-image: url("../images/blurredbg4.jpg");
   background-size: cover;
 
 
