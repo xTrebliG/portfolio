@@ -62,7 +62,7 @@ body {
       text-align: center; }
 
 #sec-four {
-  background-image: url("../images/blurredbg4.jpg");
+  background-image: url("../images/keyboardbg.jpg");
   background-size: cover; }
 
 footer {
@@ -83,6 +83,10 @@ footer {
   #sec-one h2 {
     margin-left: -220px;
     font-size: 1em;
-    margin-top: 20px; } }
+    margin-top: 20px; }
+
+  #sec-three {
+    background-image: url("../images/bridgebikemobile.jpg");
+    background-size: cover; } }
 
 /*# sourceMappingURL=style.css.map */
