@@ -3,7 +3,7 @@ $('#downarrow').hide();
 $(document).ready(function(){
 
     $('#fullpage').fullpage({
-        scrollingSpeed: 700,
+        scrollingSpeed: 500,
         anchors: ['firstPage', 'secondPage', 'thirdPage', 'lastPage']
 
     });
