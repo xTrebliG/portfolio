@@ -2,7 +2,10 @@ $('#downarrow').hide();
 
 $(document).ready(function(){
 
-    $('#fullpage').fullpage(function(){
+    $('#fullpage').fullpage({
+        scrollingSpeed: 700,
+        anchors: ['firstPage', 'secondPage', 'thirdPage', 'lastPage']
+
     });
 
     nameSlideRight();
