@@ -1,6 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase; }
+  font-family: 'Fugaz One', cursive; }
   body .fa {
     color: white; }
 
@@ -26,13 +25,13 @@ body {
   color: white;
   text-shadow: 2px 2px 5px #636363; }
   #sec-one h1 {
-    text-transform: uppercase;
-    font-size: 3em; }
-  #sec-one #one {
-    margin: 0 auto;
-    text-align: center;
-    width: 40%;
-    border: 1px solid black; }
+    width: 400px;
+    padding: 10px 0px 10px 35px;
+    margin-bottom: -20px; }
+  #sec-one h2 {
+    width: 400px;
+    padding: 10px 100px 10px 10px;
+    margin-left: -170px; }
   #sec-one .scrolldown {
     text-align: center;
     height: 60px;
@@ -44,47 +43,12 @@ body {
 #sec-two {
   background-image: url("../images/deskmouse.jpg");
   background-size: cover; }
-  #sec-two i {
-    color: black; }
-  #sec-two .s2about {
-    text-align: center;
-    margin-top: 50px;
-    background-color: rgba(255, 239, 213, 0.6);
-    padding: 10px; }
-    #sec-two .s2about .s2image {
-      height: 150px;
-      width: 150px;
-      border: 1px solid black;
-      margin: 0 auto; }
-    #sec-two .s2about .s2p {
-      width: 50%;
-      margin: 0 auto; }
-  #sec-two .s2bottom {
-    margin-top: 150px;
-    padding: 20px; }
-  #sec-two .s2info {
-    width: 30%;
-    height: 350px;
-    display: inline-block;
-    text-align: center;
-    margin: 10px;
-    background-color: rgba(255, 239, 213, 0.6);
+  #sec-two .pagetwo {
     border-radius: 5px;
-    vertical-align: top;
-    white-space: pre-line; }
-  #sec-two #skills {
-    margin-left: 3%; }
-  #sec-two #s2center {
+    padding: 5px;
+    width: 50%;
     margin: 0 auto;
-    width: 100%; }
-  #sec-two #skills_ul {
-    margin-top: -15%;
-    margin-right: 14%; }
-    #sec-two #skills_ul li {
-      list-style-type: none; }
-
-#sec-two > p {
-  margin-top: -10%; }
+    background-color: rgba(255, 255, 255, 0.4); }
 
 #sec-three {
   background-image: url("../images/desk2-2.jpg");
@@ -109,6 +73,9 @@ footer {
   position: fixed;
   z-index: 0; }
 
+.span2, .span1, .span3, .span4 {
+  opacity: .0; }
+
 @media (max-width: 480px) {
   #sec-one h1 {
     margin-left: -160px;
@@ -121,4 +88,4 @@ footer {
   #sec-three {
     background-size: cover; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style:css.map */

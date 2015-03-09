@@ -1,10 +1,9 @@
 @import "bourbon/bourbon";
 
 
-
-
 body{
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
   .fa {
     color: white;
   }
@@ -49,23 +48,25 @@ body{
     text-shadow: 2px 2px 5px #636363;
 
   h1{
+    text-transform: uppercase;
+    font-size: 3em;
 //    border: 1px solid black;
-    width: 400px;
-    padding: 10px 0px 10px 35px;
+//    width: 400px;
+//    padding: 10px 0px 10px 35px;
 //    background-color: rgba(255, 239, 213, .7) ;
-    margin-bottom: -20px;
-
-
+//    margin-bottom: -20px;
 
   }
 
-  h2{
-    width: 400px;
-//    background-color: rgba(255, 239, 213, .7) ;
-    padding: 10px 100px 10px 10px;
-    margin-left: -170px;
 
-  }
+    #one{
+     margin: 0 auto;
+      text-align: center;
+      width:40%;
+      border: 1px solid black;
+    }
+
+
 
 
 
@@ -95,16 +96,79 @@ body{
   background-image: url("../images/deskmouse.jpg");
   background-size: cover;
 
-  .pagetwo{
-//    border:1px solid black;
-    border-radius: 5px;
-    padding: 5px;
-    width: 50%;
-    margin: 0 auto;
-    background-color: rgba(255,255,255, .4);
+  //  ICON COLORS //
+  i{
+    color: black;
+  }
+  .s2about {
+    text-align: center;
+//    border: 1px solid black;
+    margin-top: 50px;
+    background-color: rgba(255, 239, 213, .6);
+    padding: 10px;
 
+    .s2image {
+      height: 150px;
+      width: 150px;
+      border: 1px solid black;
+      margin: 0 auto;
+    }
+
+    .s2p {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+
+
+  .s2bottom {
+    margin-top: 150px;
+    padding: 20px;
+  }
+
+
+
+  .s2info {
+//    border: 1px solid black;
+    width: 30%;
+    height: 350px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(255, 239, 213, .6);
+    border-radius: 5px;
+    vertical-align: top;
+    white-space: pre-line;
 
   }
+
+  #skills{
+    margin-left: 3%;
+  }
+
+  #s2center {
+    margin: 0 auto;
+    width: 100%;
+//    border: 1px solid black;
+  }
+
+
+  #skills_ul {
+    margin-top: -15%;
+    margin-right: 14%;
+
+    li {
+      list-style-type: none;
+    }
+
+  }
+
+
+
+}
+
+#sec-two > p {
+  margin-top: -10%;
 }
 
 //SECTION THREE STYLES//
@@ -153,7 +217,7 @@ footer{
 //SLIDE IN TEST//
 
 .span2, .span1, .span3, .span4 {
-  opacity: .0;
+//  opacity: .0;
 }
 
 //.span2, .span4{

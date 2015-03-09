@@ -1,4 +1,4 @@
-$('#downarrow').hide();
+hideMeNow();
 
 $(document).ready(function(){
 
@@ -8,11 +8,22 @@ $(document).ready(function(){
 
     });
 
-    nameSlideRight();
-    arrowFadeIn();
+
+    onHover();
+    //nameSlideRight();
+    //arrowFadeIn();
     //addBgColor();
 
 });
+
+function hideMeNow(){
+
+    $('#downarrow').hide();
+    $('#skills_ul').hide();
+    $('#connect_ul').hide();
+    $('#more_ul').hide();
+
+}
 
 function nameSlideRight(){
     $(window).load(function(){
@@ -44,4 +55,33 @@ function arrowFadeIn(){
 
     })
 
+}
+
+
+function onHover(){
+    $('#skills').hover(
+    function() {
+        $(this).children('p:nth-child(3)').fadeOut(500).hide();
+
+        $('#s2h1').animate({
+            marginTop: '-5%'
+        }).append('<hr>');
+
+        $(this).children('p:nth-child(2)').animate({
+            marginTop: '-10%',
+            opacity: 0
+        });
+
+        $('#skills_ul').fadeIn(1000);
+
+    },
+    function(){
+        $('#skills_ul').fadeOut(300);
+        $(this).children('p:nth-child(3)').fadeIn(1000);
+        $(this).children('p:nth-child(2)').fadeIn(1200);
+        $(this).css('white-space', 'pre-line');
+        $('#s2h1').animate({
+            marginTop: '5%'
+        }).children('hr').fadeOut(300);
+    });
 }
